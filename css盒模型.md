@@ -5,7 +5,7 @@
 * block-level box: `display`属性为`block`、`list-item`、`table`的元素
 * inline-level box: `display`属性为`inline`、`inline-block`、`inline-table`的元素
 
-##  标准盒模型
+## 标准盒模型
 
 `box-sizing`属性为`content-box`，盒子的`总宽高 = width/height + border + padding + margin`
 
