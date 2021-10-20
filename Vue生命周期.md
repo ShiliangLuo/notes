@@ -45,3 +45,7 @@
 * errorCaptured
 
   当捕获一个来自子孙组件的错误时调用
+
+## Vue父子组件生命周期执行顺序
+
+`父组件beforeCreate` => `父组件created` => `子组件beforeCreate` => `子组件created` => `子组件mounted` => `父组件mounted` => `父组件beforeDestroy` => `子组件beforeDestroy` => `子组件destroyed` => `父组件destroyed`
